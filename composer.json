@@ -18,5 +18,9 @@
         "generate-config-with-salts": [
             "vendor/scottjs/wp-dotenv/generate-config.sh salts"
         ]
-    }
+    },
+    "repositories": [{
+            "type": "composer",
+            "url": "https://wpackagist.org/"
+        }]
 }
