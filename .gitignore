@@ -1,3 +1,7 @@
 /vendor/
 /wordpress/
 .env
+/wp-content/themes/p2/
+/wp-content/plugins/wordpress-seo/
+/wp-content/plugins/debug-bar/
+*.log

@@ -9,7 +9,9 @@
     }],
     "require": {
         "johnpbloch/wordpress": "^4.8",
-        "scottjs/wp-dotenv": "1.*"
+        "scottjs/wp-dotenv": "1.*",
+        "wpackagist-theme/p2": "^1.5",
+        "wpackagist-plugin/wordpress-seo": "^4.9"
     },
     "scripts": {
         "generate-config": [
@@ -22,5 +24,8 @@
     "repositories": [{
             "type": "composer",
             "url": "https://wpackagist.org/"
-        }]
+        }],
+    "require-dev": {
+        "wpackagist-plugin/debug-bar": "^0.9.0"
+    }
 }
