@@ -9,5 +9,7 @@
             "email": "rahul.bansal@rtcamp.com"
         }
     ],
-    "require": {}
+    "require": {
+        "johnpbloch/wordpress": "^4.8"
+    }
 }
