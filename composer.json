@@ -3,13 +3,20 @@
     "description": "Demo of managing WordPress site using composer",
     "type": "project",
     "license": "GPLv2",
-    "authors": [
-        {
-            "name": "Rahul Bansal",
-            "email": "rahul.bansal@rtcamp.com"
-        }
-    ],
+    "authors": [{
+        "name": "Rahul Bansal",
+        "email": "rahul.bansal@rtcamp.com"
+    }],
     "require": {
-        "johnpbloch/wordpress": "^4.8"
+        "johnpbloch/wordpress": "^4.8",
+        "scottjs/wp-dotenv": "1.*"
+    },
+    "scripts": {
+        "generate-config": [
+            "vendor/scottjs/wp-dotenv/generate-config.sh"
+        ],
+        "generate-config-with-salts": [
+            "vendor/scottjs/wp-dotenv/generate-config.sh salts"
+        ]
     }
 }
