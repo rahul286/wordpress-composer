@@ -1,0 +1,13 @@
+{
+    "name": "rahul286/wordpress-composer",
+    "description": "Demo of managing WordPress site using composer",
+    "type": "project",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Rahul Bansal",
+            "email": "rahul.bansal@rtcamp.com"
+        }
+    ],
+    "require": {}
+}
